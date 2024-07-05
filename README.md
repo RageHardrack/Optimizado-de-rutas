@@ -1,75 +1,11 @@
-# Nuxt 3 Minimal Starter
+# Rutas Optimizadas con Nuxt 3 y Dify
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Aplicación para obtener el recorrido óptimo entre varios puntos del mapa, haciendo el menor recorrido de distancia posible y sin volver al origen (como Nodos de Grafos).
 
-## Setup
+## Stack
 
-Make sure to install the dependencies:
+- Nuxt 3
+- Google Maps
+- Dify
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## [DEMO](https://optimizado-de-rutas.vercel.app/)
