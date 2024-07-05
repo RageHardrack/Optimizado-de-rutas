@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@fawmi/vue-google-maps": "0.9.67",
+    "@nuxt/ui": "2.17.0",
+    "@nuxtjs/leaflet": "1.0.14",
+    "@nuxtjs/tailwindcss": "6.12.0",
+    "@pinia/nuxt": "0.5.1",
+    "@vueuse/core": "10.11.0",
+    "@vueuse/nuxt": "10.11.0",
+    "nuxt": "3.12.3",
+    "vue": "latest",
+    "marked": "12.0.2"
+  },
+  "packageManager": "pnpm@8.15.4+sha1.c85a4305534f76d461407b59277b954bac97b5c4",
+  "devDependencies": {
+    "@pinia-plugin-persistedstate/nuxt": "1.2.1"
+  }
+}
